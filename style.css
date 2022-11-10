@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(./imagens/laptop2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(0,0,0,0.6);
+    opacity: 0.8;
+    padding: 20px;
+   
+}
+.menu-itens{
+    display: flex;
+    gap: 15px;
+}
+.menu-itens a{
+    text-decoration: none;
+    color: #F2F2F2;
+  
+}
+
+section{
+    color: #F2F2F2;
+    
+    
+
+}
+
+.container{
+    margin-top: 100px ;
+    margin-left: 80px;
+}
+section .nome{
+    font-size: 30px;
+}
+section .sobrenome{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+section .stack{
+    font-size: 20px;
+}
+.botoes{
+    margin: 20px 80px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botao {
+    /* margin-top: 25px;
+    box-sizing: border-box; */
+    background-color: rgb(0,0,0,0.6);
+    color: #F2F2F2;
+    opacity: 0.9;
+    border: 1px solid #F2F2F2;
+    border-radius: 12px;
+    padding: 12px;
+
+    
+
+
+}
+.container-imagens ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 5px;
+    margin-left: 80px;
+    margin-top: 350px;
+    padding-bottom: 75px;
+
+}
+
+.sobre{
+    /* margin-top: 27%; */
+    color: #F2F2F2;
+    background-color: black;
+    padding: 2%;
+}
+.sobre h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.container-sobre{
+    margin: 15px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
